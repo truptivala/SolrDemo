@@ -1,0 +1,31 @@
+run cmd
+
+cd c:\solr-4.8.0\example
+java -Dsolr.solr.home="./example-DIH/solr/" -jar start.jar
+
+
+Configuration is in folder:
+C:\solr-4.8.0\example\example-DIH\solr\rssRep\conf
+
+put file in 
+C:\inetpub\wwwroot\
+
+To see iis type "inetmgr" and u should be able to see file in default website. urls are as below.U change this url in C:\solr-4.8.0\example\example-DIH\solr\rssRep\conf\rss-data-config.xml
+
+http://localhost/Accenture%20-%20Jobs.xml
+
+--------------------------------------------------------------------------------------------------------
+
+after this set up u shoudl able to see solr running at
+
+http://localhost:8983/solr/#/
+
+---------------------------------------------------------------------------------------------------------
+
+https://developer.linkedin.com/apis
+https://wiki.apache.org/solr/PublicServers
+https://lucene.apache.org/solr/4_10_0/tutorial.html
+https://developer.linkedin.com/documents/people-search-api
+http://localhost:8983/solr/#/rssRep/query
+https://github.com/iotashan/cfsolrlib/tree/master/solr-server/example-DIH
+https://cwiki.apache.org/confluence/display/solr/Getting+Started
